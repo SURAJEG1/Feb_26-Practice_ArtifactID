@@ -2,36 +2,50 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-16T18:11:10 IST" name="Default suite" finished-at="2026-02-16T18:11:48 IST" duration-ms="37704">
+  <suite started-at="2026-02-17T20:33:55 IST" name="Default suite" finished-at="2026-02-17T20:34:48 IST" duration-ms="52733">
     <groups>
     </groups>
-    <test started-at="2026-02-16T18:11:10 IST" name="Default test" finished-at="2026-02-16T18:11:48 IST" duration-ms="37704">
-      <class name="feb16_TestNG.AmazonDynamicDropdown">
-        <test-method is-config="true" signature="setup()[pri:0, instance:feb16_TestNG.AmazonDynamicDropdown@62379589]" started-at="2026-02-16T18:11:10 IST" name="setup" finished-at="2026-02-16T18:11:24 IST" duration-ms="13514" status="PASS">
+    <test started-at="2026-02-17T20:33:55 IST" name="Default test" finished-at="2026-02-17T20:34:48 IST" duration-ms="52733">
+      <class name="feb16_TestNG.DataDrivenWithDataProviderAnnotation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:33:56 IST" name="setup" finished-at="2026-02-17T20:34:16 IST" duration-ms="20685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dynamicSearchAndClick()[pri:2, instance:feb16_TestNG.AmazonDynamicDropdown@62379589]" started-at="2026-02-16T18:11:24 IST" name="dynamicSearchAndClick" finished-at="2026-02-16T18:11:30 IST" duration-ms="6091" status="PASS">
+        <test-method signature="loginTest001(java.lang.String)[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:16 IST" name="loginTest001" data-provider="credentialDetails" finished-at="2026-02-17T20:34:28 IST" duration-ms="12042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamicSearchAndClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb16_TestNG.AmazonDynamicDropdown@62379589]" started-at="2026-02-16T18:11:30 IST" name="tearDown" finished-at="2026-02-16T18:11:30 IST" duration-ms="693" status="PASS">
+        </test-method> <!-- loginTest001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:28 IST" name="tearDown" finished-at="2026-02-17T20:34:30 IST" duration-ms="1762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:feb16_TestNG.AmazonDynamicDropdown@62379589]" started-at="2026-02-16T18:11:30 IST" name="setup" finished-at="2026-02-16T18:11:36 IST" duration-ms="5245" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:30 IST" name="setup" finished-at="2026-02-17T20:34:36 IST" duration-ms="6381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dynamicSearchAndDropdown()[pri:2, instance:feb16_TestNG.AmazonDynamicDropdown@62379589]" started-at="2026-02-16T18:11:36 IST" name="dynamicSearchAndDropdown" finished-at="2026-02-16T18:11:47 IST" duration-ms="11637" status="PASS">
+        <test-method signature="loginTest001(java.lang.String)[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:36 IST" name="loginTest001" data-provider="credentialDetails" finished-at="2026-02-17T20:34:48 IST" duration-ms="11312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamicSearchAndDropdown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb16_TestNG.AmazonDynamicDropdown@62379589]" started-at="2026-02-16T18:11:47 IST" name="tearDown" finished-at="2026-02-16T18:11:48 IST" duration-ms="423" status="PASS">
+        </test-method> <!-- loginTest001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:48 IST" name="tearDown" finished-at="2026-02-17T20:34:48 IST" duration-ms="390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- feb16_TestNG.AmazonDynamicDropdown -->
+      </class> <!-- feb16_TestNG.DataDrivenWithDataProviderAnnotation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

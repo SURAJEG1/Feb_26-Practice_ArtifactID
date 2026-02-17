@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feb16_TestNG.AmazonDynamicDropdown">
+      <class name="feb16_TestNG.DataDrivenWithDataProviderAnnotation">
         <methods>
-          <include name="dynamicSearchAndDropdown"/>
-          <include name="setup"/>
+          <include name="loginTest001" invocation-numbers="0"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- feb16_TestNG.AmazonDynamicDropdown -->
+      </class> <!-- feb16_TestNG.DataDrivenWithDataProviderAnnotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
