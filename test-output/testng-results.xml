@@ -2,35 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-17T20:33:55 IST" name="Default suite" finished-at="2026-02-17T20:34:48 IST" duration-ms="52733">
+  <suite started-at="2026-02-23T00:14:59 IST" name="Default suite" finished-at="2026-02-23T00:15:36 IST" duration-ms="36751">
     <groups>
     </groups>
-    <test started-at="2026-02-17T20:33:55 IST" name="Default test" finished-at="2026-02-17T20:34:48 IST" duration-ms="52733">
-      <class name="feb16_TestNG.DataDrivenWithDataProviderAnnotation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:33:56 IST" name="setup" finished-at="2026-02-17T20:34:16 IST" duration-ms="20685" status="PASS">
+    <test started-at="2026-02-23T00:14:59 IST" name="Default test" finished-at="2026-02-23T00:15:36 IST" duration-ms="36751">
+      <class name="feb22_TestNG.DataDrivenWithDataProviderAnnotation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:14:59 IST" name="setup" finished-at="2026-02-23T00:15:03 IST" duration-ms="4130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest001(java.lang.String)[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:16 IST" name="loginTest001" data-provider="credentialDetails" finished-at="2026-02-17T20:34:28 IST" duration-ms="12042" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[laptop]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:28 IST" name="tearDown" finished-at="2026-02-17T20:34:30 IST" duration-ms="1762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:30 IST" name="setup" finished-at="2026-02-17T20:34:36 IST" duration-ms="6381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest001(java.lang.String)[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:36 IST" name="loginTest001" data-provider="credentialDetails" finished-at="2026-02-17T20:34:48 IST" duration-ms="11312" status="PASS">
+        <test-method signature="searchProducts(java.lang.String)[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:03 IST" name="searchProducts" data-provider="searchItems" finished-at="2026-02-23T00:15:15 IST" duration-ms="11591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,12 +21,31 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb16_TestNG.DataDrivenWithDataProviderAnnotation@6025e1b6]" started-at="2026-02-17T20:34:48 IST" name="tearDown" finished-at="2026-02-17T20:34:48 IST" duration-ms="390" status="PASS">
+        </test-method> <!-- searchProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:15 IST" name="tearDown" finished-at="2026-02-23T00:15:18 IST" duration-ms="3309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- feb16_TestNG.DataDrivenWithDataProviderAnnotation -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:18 IST" name="setup" finished-at="2026-02-23T00:15:22 IST" duration-ms="4220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProducts(java.lang.String)[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:22 IST" name="searchProducts" data-provider="searchItems" finished-at="2026-02-23T00:15:33 IST" duration-ms="10110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:33 IST" name="tearDown" finished-at="2026-02-23T00:15:36 IST" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- feb22_TestNG.DataDrivenWithDataProviderAnnotation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
