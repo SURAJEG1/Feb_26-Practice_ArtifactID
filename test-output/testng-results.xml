@@ -1,51 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-23T00:14:59 IST" name="Default suite" finished-at="2026-02-23T00:15:36 IST" duration-ms="36751">
+  <suite started-at="2026-02-23T19:03:57 IST" name="Suite" finished-at="2026-02-23T19:05:48 IST" duration-ms="111468">
     <groups>
     </groups>
-    <test started-at="2026-02-23T00:14:59 IST" name="Default test" finished-at="2026-02-23T00:15:36 IST" duration-ms="36751">
-      <class name="feb22_TestNG.DataDrivenWithDataProviderAnnotation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:14:59 IST" name="setup" finished-at="2026-02-23T00:15:03 IST" duration-ms="4130" status="PASS">
+    <test started-at="2026-02-23T19:03:57 IST" name="Test" finished-at="2026-02-23T19:05:48 IST" duration-ms="111468">
+      <class name="feb23_TestNG.IframeHandleAndWindowHandles">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb23_TestNG.IframeHandleAndWindowHandles@7c6908d7]" started-at="2026-02-23T19:03:57 IST" name="setup" finished-at="2026-02-23T19:04:09 IST" duration-ms="11560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProducts(java.lang.String)[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:03 IST" name="searchProducts" data-provider="searchItems" finished-at="2026-02-23T00:15:15 IST" duration-ms="11591" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mobile]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="iframeHandle()[pri:1, instance:feb23_TestNG.IframeHandleAndWindowHandles@7c6908d7]" started-at="2026-02-23T19:04:09 IST" name="iframeHandle" finished-at="2026-02-23T19:04:11 IST" duration-ms="2123" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:15 IST" name="tearDown" finished-at="2026-02-23T00:15:18 IST" duration-ms="3309" status="PASS">
+        </test-method> <!-- iframeHandle -->
+        <test-method signature="windowHandles()[pri:2, instance:feb23_TestNG.IframeHandleAndWindowHandles@7c6908d7]" started-at="2026-02-23T19:04:11 IST" name="windowHandles" finished-at="2026-02-23T19:04:14 IST" duration-ms="3382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb23_TestNG.IframeHandleAndWindowHandles@7c6908d7]" started-at="2026-02-23T19:04:14 IST" name="tearDown" finished-at="2026-02-23T19:04:19 IST" duration-ms="4580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:18 IST" name="setup" finished-at="2026-02-23T00:15:22 IST" duration-ms="4220" status="PASS">
+      </class> <!-- feb23_TestNG.IframeHandleAndWindowHandles -->
+      <class name="feb23_TestNG.AmazonStaticDropdownHandleBySelectClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb23_TestNG.AmazonStaticDropdownHandleBySelectClass@bcec361]" started-at="2026-02-23T19:04:31 IST" name="setup" finished-at="2026-02-23T19:04:35 IST" duration-ms="4224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProducts(java.lang.String)[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:22 IST" name="searchProducts" data-provider="searchItems" finished-at="2026-02-23T00:15:33 IST" duration-ms="10110" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[laptop]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="amazonStaticDropdown_Example1()[pri:1, instance:feb23_TestNG.AmazonStaticDropdownHandleBySelectClass@bcec361]" started-at="2026-02-23T19:04:35 IST" name="amazonStaticDropdown_Example1" finished-at="2026-02-23T19:04:41 IST" duration-ms="5680" status="FAIL">
+          <exception class="java.lang.UnsupportedOperationException">
+            <message>
+              <![CDATA[You may not select an option in invisible select]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException: You may not select an option in invisible select
+at org.openqa.selenium.support.ui.Select.assertSelectIsVisible(Select.java:418)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:347)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+at feb23_TestNG.AmazonStaticDropdownHandleBySelectClass.amazonStaticDropdown_Example1(AmazonStaticDropdownHandleBySelectClass.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsupportedOperationException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb22_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-02-23T00:15:33 IST" name="tearDown" finished-at="2026-02-23T00:15:36 IST" duration-ms="3283" status="PASS">
+        </test-method> <!-- amazonStaticDropdown_Example1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb23_TestNG.AmazonStaticDropdownHandleBySelectClass@bcec361]" started-at="2026-02-23T19:04:41 IST" name="tearDown" finished-at="2026-02-23T19:04:44 IST" duration-ms="3243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- feb22_TestNG.DataDrivenWithDataProviderAnnotation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb23_TestNG.AmazonStaticDropdownHandleBySelectClass@bcec361]" started-at="2026-02-23T19:04:44 IST" name="setup" finished-at="2026-02-23T19:04:49 IST" duration-ms="4359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="amazonStaticDropdown_Example2()[pri:2, instance:feb23_TestNG.AmazonStaticDropdownHandleBySelectClass@bcec361]" started-at="2026-02-23T19:04:49 IST" name="amazonStaticDropdown_Example2" finished-at="2026-02-23T19:04:55 IST" duration-ms="6502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonStaticDropdown_Example2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb23_TestNG.AmazonStaticDropdownHandleBySelectClass@bcec361]" started-at="2026-02-23T19:04:55 IST" name="tearDown" finished-at="2026-02-23T19:04:59 IST" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- feb23_TestNG.AmazonStaticDropdownHandleBySelectClass -->
+      <class name="feb23_TestNG.AmazonDynamicSearchAndListDropdown">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb23_TestNG.AmazonDynamicSearchAndListDropdown@26794848]" started-at="2026-02-23T19:04:59 IST" name="setup" finished-at="2026-02-23T19:05:03 IST" duration-ms="4473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="amazonDynamicSearchAndListDropdown_Example1()[pri:1, instance:feb23_TestNG.AmazonDynamicSearchAndListDropdown@26794848]" started-at="2026-02-23T19:05:03 IST" name="amazonDynamicSearchAndListDropdown_Example1" finished-at="2026-02-23T19:05:11 IST" duration-ms="7688" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [adfdc5590ec090f2151c2de02cff23b9, clickElement {id=f.DA5B96498E354000387264BED42B072B.d.8A307A0D21979E33E1717620B277BDCA.e.122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.109, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49185}, goog:processID: 12352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49185/devtoo..., se:cdpVersion: 145.0.7632.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (adfdc5590ec090f2151c2de02cff23b9)] -> xpath: //span[@class='s-heavy']]
+Session ID: adfdc5590ec090f2151c2de02cff23b9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [adfdc5590ec090f2151c2de02cff23b9, clickElement {id=f.DA5B96498E354000387264BED42B072B.d.8A307A0D21979E33E1717620B277BDCA.e.122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.109, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49185}, goog:processID: 12352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49185/devtoo..., se:cdpVersion: 145.0.7632.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (adfdc5590ec090f2151c2de02cff23b9)] -> xpath: //span[@class='s-heavy']]
+Session ID: adfdc5590ec090f2151c2de02cff23b9
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at feb23_TestNG.AmazonDynamicSearchAndListDropdown.amazonDynamicSearchAndListDropdown_Example1(AmazonDynamicSearchAndListDropdown.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonDynamicSearchAndListDropdown_Example1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb23_TestNG.AmazonDynamicSearchAndListDropdown@26794848]" started-at="2026-02-23T19:05:11 IST" name="tearDown" finished-at="2026-02-23T19:05:11 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb23_TestNG.AmazonDynamicSearchAndListDropdown@26794848]" started-at="2026-02-23T19:05:11 IST" name="setup" finished-at="2026-02-23T19:05:15 IST" duration-ms="4349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="amazonDynamicSearchAndListDropdown_Example2()[pri:2, instance:feb23_TestNG.AmazonDynamicSearchAndListDropdown@26794848]" started-at="2026-02-23T19:05:15 IST" name="amazonDynamicSearchAndListDropdown_Example2" finished-at="2026-02-23T19:05:27 IST" duration-ms="11852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonDynamicSearchAndListDropdown_Example2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb23_TestNG.AmazonDynamicSearchAndListDropdown@26794848]" started-at="2026-02-23T19:05:27 IST" name="tearDown" finished-at="2026-02-23T19:05:28 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- feb23_TestNG.AmazonDynamicSearchAndListDropdown -->
+      <class name="feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles@4e08711f]" started-at="2026-02-23T19:04:19 IST" name="setup" finished-at="2026-02-23T19:04:25 IST" duration-ms="5983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="rightClickMouseHoverAction()[pri:1, instance:feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles@4e08711f]" started-at="2026-02-23T19:04:25 IST" name="rightClickMouseHoverAction" finished-at="2026-02-23T19:04:25 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightClickMouseHoverAction -->
+        <test-method signature="robotClass()[pri:2, instance:feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles@4e08711f]" started-at="2026-02-23T19:04:25 IST" name="robotClass" finished-at="2026-02-23T19:04:28 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- robotClass -->
+        <test-method signature="windowHandles()[pri:3, instance:feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles@4e08711f]" started-at="2026-02-23T19:04:28 IST" name="windowHandles" finished-at="2026-02-23T19:04:28 IST" duration-ms="30" status="FAIL">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1025)
+at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:1046)
+at feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles.windowHandles(MouseHoverActionRobotClassAndWindowHandles.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles@4e08711f]" started-at="2026-02-23T19:04:28 IST" name="tearDown" finished-at="2026-02-23T19:04:31 IST" duration-ms="3509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles -->
+      <class name="feb23_TestNG.FlipkartDynamicSearchAndListDropdown">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feb23_TestNG.FlipkartDynamicSearchAndListDropdown@302552ec]" started-at="2026-02-23T19:05:28 IST" name="setup" finished-at="2026-02-23T19:05:33 IST" duration-ms="5233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="flipkartDynamicSearchAndListDropdown_Example1()[pri:1, instance:feb23_TestNG.FlipkartDynamicSearchAndListDropdown@302552ec]" started-at="2026-02-23T19:05:33 IST" name="flipkartDynamicSearchAndListDropdown_Example1" finished-at="2026-02-23T19:05:48 IST" duration-ms="15288" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 2 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+at java.base/java.util.Objects.checkIndex(Objects.java:385)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at feb23_TestNG.FlipkartDynamicSearchAndListDropdown.flipkartDynamicSearchAndListDropdown_Example1(FlipkartDynamicSearchAndListDropdown.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartDynamicSearchAndListDropdown_Example1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:feb23_TestNG.FlipkartDynamicSearchAndListDropdown@302552ec]" started-at="2026-02-23T19:05:48 IST" name="tearDown" finished-at="2026-02-23T19:05:48 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- feb23_TestNG.FlipkartDynamicSearchAndListDropdown -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

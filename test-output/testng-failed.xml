@@ -2,17 +2,38 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="feb22_TestNG.Listener"/>
+    <listener class-name="feb23_TestNG.Listener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="feb22_TestNG.DataDrivenWithDataProviderAnnotation">
+      <class name="feb23_TestNG.AmazonDynamicSearchAndListDropdown">
         <methods>
-          <include name="searchProducts" invocation-numbers="0 1"/>
+          <include name="amazonDynamicSearchAndListDropdown_Example1"/>
+          <include name="setup"/>
           <include name="tearDown"/>
+        </methods>
+      </class> <!-- feb23_TestNG.AmazonDynamicSearchAndListDropdown -->
+      <class name="feb23_TestNG.FlipkartDynamicSearchAndListDropdown">
+        <methods>
+          <include name="setup"/>
+          <include name="flipkartDynamicSearchAndListDropdown_Example1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- feb23_TestNG.FlipkartDynamicSearchAndListDropdown -->
+      <class name="feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles">
+        <methods>
+          <include name="setup"/>
+          <include name="windowHandles"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- feb23_TestNG.MouseHoverActionRobotClassAndWindowHandles -->
+      <class name="feb23_TestNG.AmazonStaticDropdownHandleBySelectClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="amazonStaticDropdown_Example1"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- feb22_TestNG.DataDrivenWithDataProviderAnnotation -->
+      </class> <!-- feb23_TestNG.AmazonStaticDropdownHandleBySelectClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
