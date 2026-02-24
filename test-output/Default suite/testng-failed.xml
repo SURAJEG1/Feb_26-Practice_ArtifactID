@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feb23_TestNG.IframeHandleAndWindowHandles">
+      <class name="feb24_TestNG.DataDrivenWithDataProviderAnnotation">
         <methods>
-          <include name="iframeHandle"/>
           <include name="setup"/>
+          <include name="searchProduct" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
-          <include name="windowHandles"/>
         </methods>
-      </class> <!-- feb23_TestNG.IframeHandleAndWindowHandles -->
+      </class> <!-- feb24_TestNG.DataDrivenWithDataProviderAnnotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
