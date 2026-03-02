@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeClass;
 public class BaseClass1 {
 
 	//Created object of ReadConfigclass;
-	ReadConfig readconfig;
+	ReadConfig readconfig = new ReadConfig();
 	String browser = readconfig.getBrowser();
 	String amazonUrl = readconfig.getAmazonUrl();
 	String facebookUrl = readconfig.getFacebookUrl();

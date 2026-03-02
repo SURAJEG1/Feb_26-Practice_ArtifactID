@@ -10,8 +10,8 @@ public class MouseHoverRobotClassAndWindowHandles extends BaseClass1{
 	public void mouseHoverRightClickRobotClassAndWindowHandle() 
 	{
 		driver.get(facebookUrl);
-		//Facebook_LoginPage fblogin = new Facebook_LoginPage(driver);
-		//fblogin.mouseHoverRightClickOnInstagramLink();
+		Facebook_LoginPage fblogin = new Facebook_LoginPage(driver);
+		fblogin.mouseHoverRightClickOnInstagramLink();
 
 	}
 	
