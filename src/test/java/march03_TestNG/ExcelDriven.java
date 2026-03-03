@@ -1,4 +1,4 @@
-package march02_TestNG;
+package march03_TestNG;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,9 +11,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelDriven {
 	
-	public static Object[][] excelDriven(String filepath, String sheetname) throws IOException
+	public static Object[][] excelDriven(String filename, String sheetname) throws IOException
 	{
-		FileInputStream fis = new FileInputStream(filepath);
+		FileInputStream fis = new FileInputStream(filename);
 		Workbook workbook = new XSSFWorkbook(fis);
 		Sheet sheet = workbook.getSheet(sheetname);
 		
@@ -31,10 +31,8 @@ public class ExcelDriven {
 				data[i-1][j] = cell.toString();
 			}
 		}
-		
 		workbook.close();
 		return data;
-		
 		
 		
 	}
@@ -46,20 +44,28 @@ public class ExcelDriven {
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
-	
-	
-		
-		
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

@@ -1,4 +1,4 @@
-package March02_TestNG;
+package march02_TestNG;
 
 import java.io.File;
 import java.io.IOException;

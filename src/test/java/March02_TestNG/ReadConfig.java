@@ -1,4 +1,4 @@
-package March02_TestNG;
+package march02_TestNG;
 
 import java.io.FileInputStream;
 import java.io.IOException;
