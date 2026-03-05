@@ -58,15 +58,14 @@
     <artifactId>poi</artifactId>
     <version>5.4.0</version>
 </dependency>
-
-
-<!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi -->
+    
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 <dependency>
     <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>5.5.1</version>
-    <scope>compile</scope>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.4.0</version>
 </dependency>
+
 
 
 
@@ -74,6 +73,11 @@
   	<dependency>
   		<groupId>OmniProject_GroupID</groupId>
   		<artifactId>OmniProject_ArtifactID</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>InterviewPractice_GroupID</groupId>
+  		<artifactId>InterviewPractice_ArtifactID</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>

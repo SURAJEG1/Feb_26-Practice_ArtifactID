@@ -49,17 +49,17 @@ public class DataDrivenWithDataProviderAnnotation {
 	
 	
 	@DataProvider(name = "credentials")
-	public static Object[][] dataDriven() throws IOException 
+	public static Object[] dataDriven() throws IOException 
 	{
-		Object [][] data = new Object [2][2];
+		//Object [][] data = new Object [2][2];
 //		data [0][0] = "";
 //		data [1][0] = "";
 //		
 //		data [1][0] = "";
 //		data [1][1] = "";
 		
-		String fileName = "E:\\InfoEge Automation Project\\Feb_26-Practice_ArtifactID\\src\\test\\java\\march03_TestNG\\Excel\\LoginDetails.xlsx";
-		String sheetName = "TestData";
+		String fileName = "E:\\InfoEge Automation Project\\Feb_26-Practice_ArtifactID\\Excelfile\\LoginDetails.xlsx";
+		String sheetName = "Testdata";
 		
 		return ExcelDriven.excelDriven(fileName, sheetName);
 	}
