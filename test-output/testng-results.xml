@@ -1,109 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-05T17:20:53 IST" name="Default suite" finished-at="2026-03-05T17:22:10 IST" duration-ms="76867">
+  <suite started-at="2026-03-08T00:48:36 IST" name="Default suite" finished-at="2026-03-08T00:49:34 IST" duration-ms="58643">
     <groups>
     </groups>
-    <test started-at="2026-03-05T17:20:53 IST" name="Default test" finished-at="2026-03-05T17:22:10 IST" duration-ms="76867">
-      <class name="march03_TestNG.DataDrivenWithDataProviderAnnotation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:20:56 IST" name="setup" finished-at="2026-03-05T17:21:10 IST" duration-ms="14385" status="PASS">
+    <test started-at="2026-03-08T00:48:36 IST" name="Default test" finished-at="2026-03-08T00:49:34 IST" duration-ms="58643">
+      <class name="march07_TestNG.FlipkartAlertHandle">
+        <test-method is-config="true" signature="setup()[pri:0, instance:march07_TestNG.FlipkartAlertHandle@1e800aaa]" started-at="2026-03-08T00:48:36 IST" name="setup" finished-at="2026-03-08T00:48:48 IST" duration-ms="12152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:10 IST" name="loginTest" data-provider="credentials" finished-at="2026-03-05T17:21:15 IST" duration-ms="5084" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="handleAlertDismiss()[pri:0, instance:march07_TestNG.FlipkartAlertHandle@1e800aaa]" started-at="2026-03-08T00:48:48 IST" name="handleAlertDismiss" finished-at="2026-03-08T00:48:53 IST" duration-ms="5082" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:15 IST" name="tearDown" finished-at="2026-03-05T17:21:19 IST" duration-ms="3452" status="PASS">
+        </test-method> <!-- handleAlertDismiss -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:march07_TestNG.FlipkartAlertHandle@1e800aaa]" started-at="2026-03-08T00:48:53 IST" name="tearDown" finished-at="2026-03-08T00:49:34 IST" duration-ms="41261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:19 IST" name="setup" finished-at="2026-03-05T17:21:25 IST" duration-ms="6638" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:25 IST" name="loginTest" data-provider="credentials" finished-at="2026-03-05T17:21:31 IST" duration-ms="5963" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:31 IST" name="tearDown" finished-at="2026-03-05T17:21:35 IST" duration-ms="3451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:35 IST" name="setup" finished-at="2026-03-05T17:21:47 IST" duration-ms="12342" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:47 IST" name="loginTest" data-provider="credentials" finished-at="2026-03-05T17:21:51 IST" duration-ms="4069" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:51 IST" name="tearDown" finished-at="2026-03-05T17:21:55 IST" duration-ms="3384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:21:55 IST" name="setup" finished-at="2026-03-05T17:22:05 IST" duration-ms="9969" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:22:05 IST" name="loginTest" data-provider="credentials" finished-at="2026-03-05T17:22:07 IST" duration-ms="2049" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:march03_TestNG.DataDrivenWithDataProviderAnnotation@4c402120]" started-at="2026-03-05T17:22:07 IST" name="tearDown" finished-at="2026-03-05T17:22:10 IST" duration-ms="3243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- march03_TestNG.DataDrivenWithDataProviderAnnotation -->
+      </class> <!-- march07_TestNG.FlipkartAlertHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
