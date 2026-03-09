@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="march07_TestNG.FlipkartAlertHandle">
+      <class name="march09_TestNG.MouseHoverRobotClassWithWindowHandles">
         <methods>
-          <include name="handleAlertDismiss"/>
+          <include name="mouseHoverAndRightClickUsingActionMethod"/>
           <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="windowHandles"/>
         </methods>
-      </class> <!-- march07_TestNG.FlipkartAlertHandle -->
+      </class> <!-- march09_TestNG.MouseHoverRobotClassWithWindowHandles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
