@@ -8,13 +8,81 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,967</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Smoke</a></td><td class="num">2</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">43,560</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Regression</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">102,125</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">10</th><th class="num attn">2</th><th class="num">0</th><th class="num">0</th><th class="num">145,685</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles</td><td><a href="#m0">mouseHoverRightClickAction</a></td><td rowspan="1">1773751440978</td><td rowspan="1">2641</td></tr><tr class="passedeven"><td><a href="#m1">robotClass</a></td><td rowspan="1">1773751443635</td><td rowspan="1">2118</td></tr><tr class="passedeven"><td><a href="#m2">windowHandlesforwardAndBackwardCursor</a></td><td rowspan="1">1773751445765</td><td rowspan="1">5261</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">march16_TestNG.DataDrivenWithDataProviderAnnotation</td><td><a href="#m0">setup</a></td><td rowspan="1">1773752115104</td><td rowspan="1">1797</td></tr><tr><th colspan="4">Smoke &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">march16_TestNG.DataDrivenWithDataProviderAnnotation</td><td><a href="#m1">setup</a></td><td rowspan="1">1773752116952</td><td rowspan="1">0</td></tr><tr><th colspan="4">Smoke &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">march16_TestNG.DataDrivenWithDataProviderAnnotation</td><td><a href="#m2">tc001_ProductSearch</a></td><td rowspan="2">1773752116921</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m3">tc001_ProductSearch</a></td></tr><tr><th colspan="4">Smoke &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">march16_TestNG.TC003_IframeHandleRobotClassAndWindowHandles</td><td><a href="#m4">switchToiFrame</a></td><td rowspan="1">1773752085985</td><td rowspan="1">7737</td></tr><tr class="passedeven"><td><a href="#m5">windowHandles</a></td><td rowspan="1">1773752093738</td><td rowspan="1">16205</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Regression &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">march16_TestNG.TC001_StaticDropdownUsingSelectClass</td><td><a href="#m6">staticDropdownSelectByIndex</a></td><td rowspan="1">1773752184893</td><td rowspan="1">8836</td></tr><tr class="passedeven"><td><a href="#m7">staticDropdownSelectByValue</a></td><td rowspan="1">1773752199200</td><td rowspan="1">7113</td></tr><tr class="passedeven"><td><a href="#m8">staticDropdownUsingSendKeysActions</a></td><td rowspan="1">1773752211190</td><td rowspan="1">8066</td></tr><tr class="passedodd"><td rowspan="2">march16_TestNG.TC002_DynamicSearchAndListDropdown</td><td><a href="#m9">dynamicSearchAndListDropdownExample1</a></td><td rowspan="1">1773752122999</td><td rowspan="1">20679</td></tr><tr class="passedodd"><td><a href="#m10">dynamicSearchAndListDropdownExample2</a></td><td rowspan="1">1773752149697</td><td rowspan="1">14138</td></tr><tr class="passedeven"><td rowspan="3">march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles</td><td><a href="#m11">mouseHoverRightClickAction</a></td><td rowspan="1">1773752169211</td><td rowspan="1">2557</td></tr><tr class="passedeven"><td><a href="#m12">robotClass</a></td><td rowspan="1">1773752171768</td><td rowspan="1">2202</td></tr><tr class="passedeven"><td><a href="#m13">windowHandlesforwardAndBackwardCursor</a></td><td rowspan="1">1773752173989</td><td rowspan="1">5370</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles#mouseHoverRightClickAction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles#robotClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles#windowHandlesforwardAndBackwardCursor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Smoke</h2><h3 id="m0">march16_TestNG.DataDrivenWithDataProviderAnnotation#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=146.0.7680.80)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [658ee962c2a8f7f9b86829aea75c8993, get {url=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64618}, goog:processID: 2564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64618/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 658ee962c2a8f7f9b86829aea75c8993
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+	at march16_TestNG.DataDrivenWithDataProviderAnnotation.setup(DataDrivenWithDataProviderAnnotation.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">march16_TestNG.DataDrivenWithDataProviderAnnotation#setup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">march16_TestNG.DataDrivenWithDataProviderAnnotation#tc001_ProductSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Led TV</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=146.0.7680.80)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [658ee962c2a8f7f9b86829aea75c8993, get {url=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64618}, goog:processID: 2564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64618/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 658ee962c2a8f7f9b86829aea75c8993
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+	at march16_TestNG.DataDrivenWithDataProviderAnnotation.setup(DataDrivenWithDataProviderAnnotation.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">march16_TestNG.DataDrivenWithDataProviderAnnotation#tc001_ProductSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Led Light</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=146.0.7680.80)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [658ee962c2a8f7f9b86829aea75c8993, get {url=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\suraj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64618}, goog:processID: 2564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64618/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 658ee962c2a8f7f9b86829aea75c8993
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+	at march16_TestNG.DataDrivenWithDataProviderAnnotation.setup(DataDrivenWithDataProviderAnnotation.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">march16_TestNG.TC003_IframeHandleRobotClassAndWindowHandles#switchToiFrame</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">march16_TestNG.TC003_IframeHandleRobotClassAndWindowHandles#windowHandles</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression</h2><h3 id="m6">march16_TestNG.TC001_StaticDropdownUsingSelectClass#staticDropdownSelectByIndex</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">march16_TestNG.TC001_StaticDropdownUsingSelectClass#staticDropdownSelectByValue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">march16_TestNG.TC001_StaticDropdownUsingSelectClass#staticDropdownUsingSendKeysActions</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">march16_TestNG.TC002_DynamicSearchAndListDropdown#dynamicSearchAndListDropdownExample1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">march16_TestNG.TC002_DynamicSearchAndListDropdown#dynamicSearchAndListDropdownExample2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles#mouseHoverRightClickAction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles#robotClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles#windowHandlesforwardAndBackwardCursor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

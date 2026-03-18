@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="march16_TestNG.Listener"></listener>
+	</listeners>
+
+
+	<test thread-count="5" name="Smoke">
+		<classes>
+			<class name="march16_TestNG.TC003_IframeHandleRobotClassAndWindowHandles"/>
+			<class name="march16_TestNG.DataDrivenWithDataProviderAnnotation" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+	<test name="Regression">
+		<classes>
+			<class name="march16_TestNG.TC002_DynamicSearchAndListDropdown" />
+			<class name="march16_TestNG.TC004_MouseHoverAndRightClickActionWithWindowHandles" />
+			<class name="march16_TestNG.TC001_StaticDropdownUsingSelectClass" />
+		</classes>
+	</test>
+
+
+</suite> <!--
+Suite -->

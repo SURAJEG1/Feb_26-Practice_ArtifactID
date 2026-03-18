@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="march16_TestNG.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Smoke(failed)">
     <classes>
-      <class name="march13_TestNG.TC003_StaticDropdownUsingSelectClass">
+      <class name="march16_TestNG.DataDrivenWithDataProviderAnnotation">
         <methods>
-          <include name="staticDropdown_SelectByVisibleText"/>
-          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="tc001_ProductSearch"/>
         </methods>
-      </class> <!-- march13_TestNG.TC003_StaticDropdownUsingSelectClass -->
+      </class> <!-- march16_TestNG.DataDrivenWithDataProviderAnnotation -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->
