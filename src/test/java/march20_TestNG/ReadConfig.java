@@ -1,13 +1,15 @@
-package march19_TestNG;
+package march20_TestNG;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ReadConfig {
-	//Create object of Properties class;
+	
+	//Create Object of Properties class;
 	Properties properties;
 	String filepath = "";
+	
 	
 	//Constructor
 	public ReadConfig() 
@@ -21,20 +23,23 @@ public class ReadConfig {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
 	}
 	
 	
 	
 	
-	//create methods for browser and url keys
+	//Create methods for browser and url key
 	public String getBrowser() 
 	{
 		String value = properties.getProperty("browser");
 		if(value!=null)
 			return value;
 		else
-			throw new RuntimeException("Browser is not spacified in config.properties file");
+			throw new RuntimeException("browser is not spacified in config.properties file");
 	}
+	
+	
 	
 	
 	public String getBaseUrl() 
@@ -43,8 +48,19 @@ public class ReadConfig {
 		if(value!=null)
 			return value;
 		else
-			throw new RuntimeException("BaseUrl is not spacified in config.properties file");
+			throw new RuntimeException("baseUrl is not spacified in config.properties file");
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

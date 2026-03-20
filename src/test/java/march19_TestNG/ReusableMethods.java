@@ -28,6 +28,7 @@ public class ReusableMethods {
 	public void impWait(int wait) 
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(wait));
+		
 	}
 	
 	
@@ -52,7 +53,10 @@ public class ReusableMethods {
 	
 	
 	
-	
+	public void waitTime(int time) throws InterruptedException 
+	{
+		Thread.sleep(time);
+	}
 	
 	
 	

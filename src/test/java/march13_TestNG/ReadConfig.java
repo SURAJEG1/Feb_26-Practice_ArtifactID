@@ -36,7 +36,7 @@ public class ReadConfig {
 		if(value!=null)
 			return value;
 		else
-			throw new RuntimeException("Browser is not spacified in config.property file");
+			throw new RuntimeException("Browser is not spacified in config.properties file");
 	}
 	
 	
@@ -47,7 +47,7 @@ public class ReadConfig {
 		if(value!=null)
 			return value;
 		else
-			throw new RuntimeException("BaseUrl is not spacified in config.property file");
+			throw new RuntimeException("BaseUrl is not spacified in config.properties file");
 		
 	}
 	
