@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="march13_TestNG.TC003_StaticDropdownUsingSelectClass">
+      <class name="march24_TestNG.MouseHoverActionAndRobotClass">
         <methods>
-          <include name="staticDropdown_SelectByVisibleText"/>
-          <include name="tearDown"/>
+          <include name="windowHandles"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- march13_TestNG.TC003_StaticDropdownUsingSelectClass -->
+      </class> <!-- march24_TestNG.MouseHoverActionAndRobotClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
