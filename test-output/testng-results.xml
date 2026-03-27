@@ -1,37 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T21:39:01 IST" name="Default suite" finished-at="2026-03-24T21:39:45 IST" duration-ms="44291">
+  <suite started-at="2026-03-27T18:07:03 IST" name="Suite" finished-at="2026-03-27T18:12:45 IST" duration-ms="342315">
     <groups>
     </groups>
-    <test started-at="2026-03-24T21:39:01 IST" name="Default test" finished-at="2026-03-24T21:39:45 IST" duration-ms="44291">
-      <class name="march24_TestNG.DynamicSearchAndListDropdown">
-        <test-method is-config="true" signature="setup()[pri:0, instance:march24_TestNG.DynamicSearchAndListDropdown@45752059]" started-at="2026-03-24T21:39:01 IST" name="setup" finished-at="2026-03-24T21:39:07 IST" duration-ms="6066" status="PASS">
+    <test started-at="2026-03-27T18:07:03 IST" name="Test" finished-at="2026-03-27T18:12:45 IST" duration-ms="342315">
+      <class name="march27_TestNG.StaticDropdown">
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:10:55 IST" name="setup" finished-at="2026-03-27T18:11:01 IST" duration-ms="6658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dynamicSearchAndListDropdown_Exmple1()[pri:1, instance:march24_TestNG.DynamicSearchAndListDropdown@45752059]" started-at="2026-03-24T21:39:07 IST" name="dynamicSearchAndListDropdown_Exmple1" finished-at="2026-03-24T21:39:21 IST" duration-ms="14677" status="PASS">
+        <test-method signature="staticDropdown_SelectByValue()[pri:1, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:11:01 IST" name="staticDropdown_SelectByValue" finished-at="2026-03-27T18:11:19 IST" duration-ms="17836" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamicSearchAndListDropdown_Exmple1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:march24_TestNG.DynamicSearchAndListDropdown@45752059]" started-at="2026-03-24T21:39:21 IST" name="tearDown" finished-at="2026-03-24T21:39:22 IST" duration-ms="367" status="PASS">
+        </test-method> <!-- staticDropdown_SelectByValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:11:19 IST" name="tearDown" finished-at="2026-03-27T18:11:21 IST" duration-ms="1919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:march24_TestNG.DynamicSearchAndListDropdown@45752059]" started-at="2026-03-24T21:39:22 IST" name="setup" finished-at="2026-03-24T21:39:28 IST" duration-ms="5957" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:11:21 IST" name="setup" finished-at="2026-03-27T18:11:28 IST" duration-ms="6793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dynamicSearchAndListDropdown_Example2()[pri:2, instance:march24_TestNG.DynamicSearchAndListDropdown@45752059]" started-at="2026-03-24T21:39:28 IST" name="dynamicSearchAndListDropdown_Example2" finished-at="2026-03-24T21:39:42 IST" duration-ms="14531" status="PASS">
+        <test-method signature="staticDropdown_SelectByIndex()[pri:2, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:11:28 IST" name="staticDropdown_SelectByIndex" finished-at="2026-03-27T18:11:51 IST" duration-ms="23128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticDropdown_SelectByIndex -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:11:51 IST" name="tearDown" finished-at="2026-03-27T18:11:52 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:11:52 IST" name="setup" finished-at="2026-03-27T18:12:01 IST" duration-ms="8796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="staticDropdown_SelectSendKeysAction()[pri:3, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:12:01 IST" name="staticDropdown_SelectSendKeysAction" finished-at="2026-03-27T18:12:18 IST" duration-ms="16843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticDropdown_SelectSendKeysAction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:march27_TestNG.StaticDropdown@2df3b89c]" started-at="2026-03-27T18:12:18 IST" name="tearDown" finished-at="2026-03-27T18:12:18 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- march27_TestNG.StaticDropdown -->
+      <class name="march27_TestNG.DynamicSearchAndListDropdown">
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.DynamicSearchAndListDropdown@5bda8e08]" started-at="2026-03-27T18:07:03 IST" name="setup" finished-at="2026-03-27T18:07:11 IST" duration-ms="7995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dynamicSearchAndListDropdown_Example1()[pri:1, instance:march27_TestNG.DynamicSearchAndListDropdown@5bda8e08]" started-at="2026-03-27T18:07:11 IST" name="dynamicSearchAndListDropdown_Example1" finished-at="2026-03-27T18:07:36 IST" duration-ms="25251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicSearchAndListDropdown_Example1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:march27_TestNG.DynamicSearchAndListDropdown@5bda8e08]" started-at="2026-03-27T18:07:37 IST" name="tearDown" finished-at="2026-03-27T18:07:38 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.DynamicSearchAndListDropdown@5bda8e08]" started-at="2026-03-27T18:07:38 IST" name="setup" finished-at="2026-03-27T18:07:44 IST" duration-ms="6300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dynamicSearchAndListDropdown_Example2()[pri:2, instance:march27_TestNG.DynamicSearchAndListDropdown@5bda8e08]" started-at="2026-03-27T18:07:44 IST" name="dynamicSearchAndListDropdown_Example2" finished-at="2026-03-27T18:08:13 IST" duration-ms="29219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dynamicSearchAndListDropdown_Example2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:march24_TestNG.DynamicSearchAndListDropdown@45752059]" started-at="2026-03-24T21:39:42 IST" name="tearDown" finished-at="2026-03-24T21:39:45 IST" duration-ms="2598" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:march27_TestNG.DynamicSearchAndListDropdown@5bda8e08]" started-at="2026-03-27T18:08:13 IST" name="tearDown" finished-at="2026-03-27T18:08:16 IST" duration-ms="2866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- march24_TestNG.DynamicSearchAndListDropdown -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- march27_TestNG.DynamicSearchAndListDropdown -->
+      <class name="march27_TestNG.MouseHoverAction">
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.MouseHoverAction@131ef10]" started-at="2026-03-27T18:08:16 IST" name="setup" finished-at="2026-03-27T18:08:23 IST" duration-ms="6697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mouseHoverAction()[pri:1, instance:march27_TestNG.MouseHoverAction@131ef10]" started-at="2026-03-27T18:08:23 IST" name="mouseHoverAction" finished-at="2026-03-27T18:08:25 IST" duration-ms="2567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverAction -->
+        <test-method signature="robotClass()[pri:2, instance:march27_TestNG.MouseHoverAction@131ef10]" started-at="2026-03-27T18:08:25 IST" name="robotClass" finished-at="2026-03-27T18:08:27 IST" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- robotClass -->
+        <test-method signature="windowHandle()[pri:3, instance:march27_TestNG.MouseHoverAction@131ef10]" started-at="2026-03-27T18:08:27 IST" name="windowHandle" finished-at="2026-03-27T18:08:30 IST" duration-ms="3448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:march27_TestNG.MouseHoverAction@131ef10]" started-at="2026-03-27T18:08:30 IST" name="tearDown" finished-at="2026-03-27T18:08:33 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- march27_TestNG.MouseHoverAction -->
+      <class name="march27_TestNG.Example">
+        <test-method signature="amazon()[pri:0, instance:march27_TestNG.Example@38afe297]" started-at="2026-03-27T18:10:36 IST" name="amazon" finished-at="2026-03-27T18:10:55 IST" duration-ms="19262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+      </class> <!-- march27_TestNG.Example -->
+      <class name="march27_TestNG.ExcelDriven">
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:08:36 IST" name="setup" finished-at="2026-03-27T18:08:42 IST" duration-ms="5900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProd(java.lang.String)[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:08:42 IST" name="searchProd" data-provider="items" finished-at="2026-03-27T18:09:04 IST" duration-ms="22193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spyker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProd -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:09:04 IST" name="TearDown" finished-at="2026-03-27T18:09:04 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:09:04 IST" name="setup" finished-at="2026-03-27T18:09:11 IST" duration-ms="6561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProd(java.lang.String)[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:09:11 IST" name="searchProd" data-provider="items" finished-at="2026-03-27T18:09:35 IST" duration-ms="23610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wranglar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProd -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:09:35 IST" name="TearDown" finished-at="2026-03-27T18:09:35 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:09:35 IST" name="setup" finished-at="2026-03-27T18:09:42 IST" duration-ms="6569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProd(java.lang.String)[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:09:42 IST" name="searchProd" data-provider="items" finished-at="2026-03-27T18:10:11 IST" duration-ms="29032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ether]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProd -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:10:11 IST" name="TearDown" finished-at="2026-03-27T18:10:12 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:10:12 IST" name="setup" finished-at="2026-03-27T18:10:18 IST" duration-ms="6130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProd(java.lang.String)[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:10:18 IST" name="searchProd" data-provider="items" finished-at="2026-03-27T18:10:35 IST" duration-ms="17256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pepe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProd -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:march27_TestNG.ExcelDriven@55b0dcab]" started-at="2026-03-27T18:10:35 IST" name="TearDown" finished-at="2026-03-27T18:10:36 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- march27_TestNG.ExcelDriven -->
+      <class name="march27_TestNG.IframeHandle">
+        <test-method is-config="true" signature="setup()[pri:0, instance:march27_TestNG.IframeHandle@23348b5d]" started-at="2026-03-27T18:12:18 IST" name="setup" finished-at="2026-03-27T18:12:33 IST" duration-ms="14864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="iframe()[pri:0, instance:march27_TestNG.IframeHandle@23348b5d]" started-at="2026-03-27T18:12:33 IST" name="iframe" finished-at="2026-03-27T18:12:44 IST" duration-ms="11622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:march27_TestNG.IframeHandle@23348b5d]" started-at="2026-03-27T18:12:44 IST" name="tearDown" finished-at="2026-03-27T18:12:45 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- march27_TestNG.IframeHandle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
